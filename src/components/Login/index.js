@@ -24,7 +24,7 @@ const Index = () => {
       ) : (
         <div>
           <SpotifyAuth
-            redirectUri="http://localhost:3000/"
+            redirectUri="https://testingapplication12.herokuapp.com/"
             clientID="0ffcec7caf3b459198766c0a334e7232"
             scopes={[Scopes.userReadPrivate, "user-read-email"]}
             onAccessToken={(token) => setToken(token)}
