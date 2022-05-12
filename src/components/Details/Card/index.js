@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     // justifyContent: "center",
     // alignItems: "center",
     width: "250px",
-    height: "350px",
+    height: "450px",
     background: "transparent",
     border: "1px solid black",
     position: "relative",

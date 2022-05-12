@@ -15,7 +15,7 @@ const Index = () => {
         position:"absolute",
         left:"50%",
         top:"50%",
-        transform:"translate(-50%,-50%)",
+        transform:"translate(-50%,-50%)"
 
       }}
     >
@@ -24,11 +24,10 @@ const Index = () => {
       ) : (
         <div>
           <SpotifyAuth
-            redirectUri="https://testingapplication12.herokuapp.com/"
+            redirectUri="http://localhost:3000/"
             clientID="0ffcec7caf3b459198766c0a334e7232"
             scopes={[Scopes.userReadPrivate, "user-read-email"]}
             onAccessToken={(token) => setToken(token)}
-            
           />
         </div>
       )}
